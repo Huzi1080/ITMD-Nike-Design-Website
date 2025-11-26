@@ -1,4 +1,4 @@
-// 1. Thumbnail Click → Change Main Image
+// CHANGE MAIN IMAGE FROM THUMBNAILS
 const mainImage = document.getElementById("mainImage");
 const thumbnails = document.querySelectorAll(".thumb");
 
@@ -8,12 +8,22 @@ thumbnails.forEach(thumb => {
     });
 });
 
-// 2. Add to Cart Button Feedback
+// COLOR OPTION SWITCHING
+const colorThumbs = document.querySelectorAll(".color-thumb");
+
+colorThumbs.forEach(color => {
+    color.addEventListener("click", () => {
+        const newMain = color.getAttribute("data-main");
+        mainImage.src = newMain;
+    });
+});
+
+// ADD TO CART
 document.getElementById("addToCart").addEventListener("click", () => {
     alert("Added to cart!");
 });
 
-// 3. Scroll Fade-In Animations for Feature Cards
+// SCROLL ANIMATIONS
 const cards = document.querySelectorAll(".feature-card");
 
 window.addEventListener("scroll", () => {
@@ -23,25 +33,23 @@ window.addEventListener("scroll", () => {
             card.classList.add("show");
         }
     });
+});
 
-    const sizeChartModal = document.getElementById("sizeChartModal");
+// SIZE CHART MODAL
+const sizeChartModal = document.getElementById("sizeChartModal");
 const openBtn = document.getElementById("openSizeChart");
 const closeBtn = document.getElementById("closeSizeChart");
 
 openBtn.addEventListener("click", () => {
-  sizeChartModal.style.display = "block";
+    sizeChartModal.style.display = "block";
 });
 
 closeBtn.addEventListener("click", () => {
-  sizeChartModal.style.display = "none";
-});
-
-// Close when clicking outside the box
-window.addEventListener("click", (event) => {
-  if (event.target === sizeChartModal) {
     sizeChartModal.style.display = "none";
-  }
 });
 
+window.addEventListener("click", (event) => {
+    if (event.target === sizeChartModal) {
+        sizeChartModal.style.display = "none";
+    }
 });
-
