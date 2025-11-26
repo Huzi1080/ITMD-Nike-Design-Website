@@ -23,5 +23,25 @@ window.addEventListener("scroll", () => {
             card.classList.add("show");
         }
     });
+
+    const sizeChartModal = document.getElementById("sizeChartModal");
+const openBtn = document.getElementById("openSizeChart");
+const closeBtn = document.getElementById("closeSizeChart");
+
+openBtn.addEventListener("click", () => {
+  sizeChartModal.style.display = "block";
+});
+
+closeBtn.addEventListener("click", () => {
+  sizeChartModal.style.display = "none";
+});
+
+// Close when clicking outside the box
+window.addEventListener("click", (event) => {
+  if (event.target === sizeChartModal) {
+    sizeChartModal.style.display = "none";
+  }
+});
+
 });
 
