@@ -1,8 +1,11 @@
 Project Title: Nike Website Design
+
 Name: Huzaifa Anis
+
 Course: ITMD 362
 
 Design Implementation: 
+
 For this project, I designed a clean and modern product page inspired by Nike. 
 My layout includes a large main product image in the center, a product image on the left, and product details on the right. 
 Below the product title, I added pricing, a color selector, a size dropdown, an Add to Cart button, and a button to open the size chart modal.
