@@ -20,7 +20,7 @@ header nav a {
     color: #333;
 }
 
-/* PRODUCT SECTION */
+/* Product Section */
 .product-section {
     display: flex;
     justify-content: center;
@@ -28,7 +28,6 @@ header nav a {
     padding: 40px;
 }
 
-/* THUMBNAILS */
 .thumbnail-column {
     display: flex;
     flex-direction: column;
@@ -46,13 +45,12 @@ header nav a {
     border-color: black;
 }
 
-/* MAIN IMAGE */
+/* Main Image */
 .main-image-container img {
     width: 420px;
     border-radius: 10px;
 }
 
-/* PRODUCT INFO */
 .product-info {
     width: 300px;
 }
@@ -61,7 +59,6 @@ header nav a {
     font-size: 24px;
 }
 
-/* COLOR OPTIONS */
 .color-options {
     display: flex;
     gap: 10px;
@@ -79,7 +76,7 @@ header nav a {
     border-color: black;
 }
 
-/* BUTTONS */
+/* Buttons */
 #addToCart, .size-chart-btn {
     padding: 10px 20px;
     border: none;
@@ -95,7 +92,7 @@ header nav a {
     background: #333;
 }
 
-/* DESCRIPTION */
+/* Description */
 .description {
     max-width: 700px;
     margin: 40px auto;
@@ -104,7 +101,6 @@ header nav a {
     border-radius: 10px;
 }
 
-/* FEATURES */
 .features {
     display: flex;
     justify-content: center;
@@ -130,9 +126,6 @@ footer {
     margin-top: 40px;
 }
 
-/* ------------------------------------------ */
-/* SIMPLE SIZE CHART MODAL (NEW + CLEANER)    */
-/* ------------------------------------------ */
 .modal {
     display: none;
     position: fixed;
@@ -157,7 +150,7 @@ footer {
     cursor: pointer;
 }
 
-/* SIMPLE TABLE */
+/* Size chart table */
 .size-chart-table {
     width: 100%;
     border-spacing: 0;
