@@ -21,14 +21,17 @@ Furthermore, I also designed a size chart using CSS, creating a clean and minima
 
 JavaScript Interactions: 
 
-- Thumbnail Image Switcher
+- Thumbnail Image Switcher:
+
 When the user clicks on a product image, the main product image changes to match that thumbnail image.
 This is done by attaching a click event to each thumbnail.
 
-- Add to Cart
+- Add to Cart:
+
 When the user clicks “Add to Cart,” an alert message appears confirming the item was added to the cart.
 
-- Size Chart 
+- Size Chart:
+
 The “Size Chart” button opens a small chart, allowing the user to view men’s and women’s sizes.
 
 Challenges Faced:
